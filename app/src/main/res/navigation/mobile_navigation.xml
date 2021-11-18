@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.actividades.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_calculadora"
+        android:name="com.example.actividades.Calculadora"
+        android:label="@string/menu_calculadora"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_musica"
+        android:name="com.example.actividades.Musica"
+        android:label="@string/menu_musica"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_navegador"
+        android:name="com.example.actividades.Navegador"
+        android:label="Navegador"
+        tools:layout="@layout/fragment_navegador" />
+    <fragment
+        android:id="@+id/nav_app"
+        android:name="com.example.actividades.App"
+        android:label="Apps"
+        tools:layout="@layout/fragment_app" />
+    <fragment
+        android:id="@+id/nav_maravillas"
+        android:name="com.example.actividades.Maravillas"
+        android:label="Maravillas"
+        tools:layout="@layout/fragment_maravillas" />
+    <fragment
+        android:id="@+id/nav_extra"
+        android:name="com.example.actividades.Extra"
+        android:label="Extra"
+        tools:layout="@layout/fragment_extra" />
+</navigation>
